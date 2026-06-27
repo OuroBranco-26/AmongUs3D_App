@@ -16,7 +16,7 @@ jobs:
 
       - name: Setup Godot & Export Templates
         run: |
-          GODOT_VERSION="4.2.2-stable"
+          GODOT_VERSION="4.3-stable"
           
           # Download Godot Engine
           wget -q https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_macos.universal.zip
