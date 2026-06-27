@@ -8,6 +8,7 @@ on:
 jobs:
   build-ios:
     runs-on: macos-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout Code
@@ -32,9 +33,9 @@ jobs:
         run: |
           mkdir -p export/iOS
           # Import all assets first
-          /Applications/Godot.app/Contents/MacOS/Godot --headless --editor --quit || true
+          /Applications/Godot.app/Contents/MacOS/Godot --headless --verbose --editor --quit || true
           # Export for iOS
-          /Applications/Godot.app/Contents/MacOS/Godot --headless --export-release "iOS" export/iOS/AmongUs3D
+          /Applications/Godot.app/Contents/MacOS/Godot --headless --verbose --export-release "iOS" export/iOS/AmongUs3D
           
       - name: Build IPA (Unsigned)
         run: |
