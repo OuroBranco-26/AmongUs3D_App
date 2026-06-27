@@ -1,0 +1,460 @@
+ERROR: Attempt to disconnect a nonexistent connection from '(res://Personagem.fbx::AnimationLibrary_iy4yk):<AnimationLibrary#-9223371991120082634>'. Signal: 'animation_added', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '(res://Personagem.fbx::AnimationLibrary_iy4yk):<AnimationLibrary#-9223371991120082634>'. Signal: 'animation_removed', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Signal 'animation_added' is already connected to given callable '' in that object.
+   at: connect (core/object/object.cpp:1561)
+ERROR: Signal 'animation_removed' is already connected to given callable '' in that object.
+   at: connect (core/object/object.cpp:1561)
+ERROR: Node not found: "Main/CanvasLayer/VotingUI" (relative to "/root").
+   at: get_node (scene/main/node.cpp:1975)
+ERROR: Parameter "node" is null.
+   at: process_simplify_path (modules/multiplayer/scene_cache_interface.cpp:118)
+ERROR: Node not found: "Main/CanvasLayer/VotingUI" (relative to "/root").
+   at: get_node (scene/main/node.cpp:1975)
+ERROR: Failed to get path from RPC: Main/CanvasLayer/VotingUI.
+   at: _process_get_node (modules/multiplayer/scene_rpc_interface.cpp:148)
+ERROR: Invalid packet received. Requested node was not found.
+   at: process_rpc (modules/multiplayer/scene_rpc_interface.cpp:211)
+ERROR: Node not found: "Main/CanvasLayer/VotingUI" (relative to "/root").
+   at: get_node (scene/main/node.cpp:1975)
+ERROR: Failed to get path from RPC: Main/CanvasLayer/VotingUI.
+   at: _process_get_node (modules/multiplayer/scene_rpc_interface.cpp:148)
+ERROR: Invalid packet received. Requested node was not found.
+   at: process_rpc (modules/multiplayer/scene_rpc_interface.cpp:211)
+ERROR: Node not found: "Main/CanvasLayer/VotingUI" (relative to "/root").
+   at: get_node (scene/main/node.cpp:1975)
+ERROR: Failed to get path from RPC: Main/CanvasLayer/VotingUI.
+   at: _process_get_node (modules/multiplayer/scene_rpc_interface.cpp:148)
+ERROR: Invalid packet received. Requested node was not found.
+   at: process_rpc (modules/multiplayer/scene_rpc_interface.cpp:211)
+ERROR: Attempt to disconnect a nonexistent connection from '519501383:<CharacterBody3D#45852133669>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@152:<CSGBox3D#33420215994>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@152:<CSGBox3D#33420215994>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@49:<CSGPolygon3D#30266099198>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@49:<CSGPolygon3D#30266099198>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@370:<StaticBody3D#44795169046>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@370:<StaticBody3D#44795169046>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@319:<StaticBody3D#39862667300>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@319:<StaticBody3D#39862667300>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@37:<CSGPolygon3D#29964109292>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@37:<CSGPolygon3D#29964109292>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@367:<StaticBody3D#44325406988>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@367:<StaticBody3D#44325406988>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#39912998951>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#39912998951>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@69:<CSGPolygon3D#30769415708>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@69:<CSGPolygon3D#30769415708>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@364:<StaticBody3D#44157634818>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@364:<StaticBody3D#44157634818>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#41926264991>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#41926264991>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@41:<CSGPolygon3D#30064772594>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@41:<CSGPolygon3D#30064772594>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@361:<StaticBody3D#43989862647>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@361:<StaticBody3D#43989862647>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@345:<StaticBody3D#42479913152>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@345:<StaticBody3D#42479913152>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@81:<CSGPolygon3D#31071405614>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@81:<CSGPolygon3D#31071405614>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@205:<CSGBox3D#35198600996>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@205:<CSGBox3D#35198600996>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@343:<StaticBody3D#42278586548>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@343:<StaticBody3D#42278586548>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@77:<CSGPolygon3D#30970742312>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@77:<CSGPolygon3D#30970742312>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@200:<CSGBox3D#35030828826>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@200:<CSGBox3D#35030828826>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@237:<CSGBox3D#36272342884>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@237:<CSGBox3D#36272342884>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@313:<CSGBox3D#38872811519>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@313:<CSGBox3D#38872811519>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@314:<CSGBox3D#38906365953>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@314:<CSGBox3D#38906365953>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@341:<StaticBody3D#42077259944>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@341:<StaticBody3D#42077259944>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@359:<CSGBox3D#43587209457>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@359:<CSGBox3D#43587209457>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@73:<CSGPolygon3D#30870079010>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@73:<CSGPolygon3D#30870079010>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _area_exit_tree (scene/3d/physics/area_3d.cpp:421)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@339:<StaticBody3D#41875933340>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@339:<StaticBody3D#41875933340>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@356:<CSGBox3D#43436214504>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@356:<CSGBox3D#43436214504>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@69:<CSGPolygon3D#30769415708>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@69:<CSGPolygon3D#30769415708>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#44258298120>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#44258298120>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@337:<StaticBody3D#41674606736>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@337:<StaticBody3D#41674606736>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@65:<CSGPolygon3D#30668752406>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@65:<CSGPolygon3D#30668752406>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@178:<CSGBox3D#34292631278>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@178:<CSGBox3D#34292631278>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@335:<StaticBody3D#41473280132>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@335:<StaticBody3D#41473280132>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@61:<CSGPolygon3D#30568089104>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@61:<CSGPolygon3D#30568089104>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@176:<CSGBox3D#34225522410>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@176:<CSGBox3D#34225522410>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@333:<StaticBody3D#41271953528>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@333:<StaticBody3D#41271953528>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@57:<CSGPolygon3D#30467425802>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@57:<CSGPolygon3D#30467425802>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@169:<CSGBox3D#33990641372>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@169:<CSGBox3D#33990641372>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@331:<StaticBody3D#41070626924>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@331:<StaticBody3D#41070626924>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@53:<CSGPolygon3D#30366762500>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@53:<CSGPolygon3D#30366762500>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@160:<CSGBox3D#33688651466>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@160:<CSGBox3D#33688651466>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@329:<StaticBody3D#40869300320>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@329:<StaticBody3D#40869300320>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@161:<CSGBox3D#33722205900>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@161:<CSGBox3D#33722205900>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@327:<StaticBody3D#40667973716>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@327:<StaticBody3D#40667973716>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@49:<CSGPolygon3D#30266099198>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@49:<CSGPolygon3D#30266099198>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@95:<CSGPolygon3D#31507613256>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@95:<CSGPolygon3D#31507613256>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@97:<CSGPolygon3D#31574722124>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@97:<CSGPolygon3D#31574722124>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@155:<CSGBox3D#33520879296>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@155:<CSGBox3D#33520879296>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@156:<CSGBox3D#33554433730>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@156:<CSGBox3D#33554433730>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@219:<CSGBox3D#35668363072>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@219:<CSGBox3D#35668363072>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@220:<CSGBox3D#35701917506>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@220:<CSGBox3D#35701917506>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@223:<CSGBox3D#35802580808>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@223:<CSGBox3D#35802580808>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@224:<CSGBox3D#35836135242>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@224:<CSGBox3D#35836135242>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@325:<StaticBody3D#40466647112>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@325:<StaticBody3D#40466647112>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@45:<CSGPolygon3D#30165435896>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@45:<CSGPolygon3D#30165435896>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@151:<CSGBox3D#33386661560>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@151:<CSGBox3D#33386661560>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@323:<StaticBody3D#40265320508>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@323:<StaticBody3D#40265320508>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@41:<CSGPolygon3D#30064772594>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@41:<CSGPolygon3D#30064772594>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@146:<CSGBox3D#33218889390>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@146:<CSGBox3D#33218889390>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@321:<StaticBody3D#40063993904>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@321:<StaticBody3D#40063993904>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@37:<CSGPolygon3D#29964109292>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@37:<CSGPolygon3D#29964109292>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@138:<CSGBox3D#32950453918>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@138:<CSGBox3D#32950453918>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@142:<CSGBox3D#33084671654>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@142:<CSGBox3D#33084671654>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@231:<CSGBox3D#36071016280>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@231:<CSGBox3D#36071016280>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _area_exit_tree (scene/3d/physics/area_3d.cpp:421)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@319:<StaticBody3D#39862667300>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@319:<StaticBody3D#39862667300>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@37:<CSGPolygon3D#29964109292>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@37:<CSGPolygon3D#29964109292>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@138:<CSGBox3D#32950453918>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@138:<CSGBox3D#32950453918>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@367:<StaticBody3D#44325406988>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@367:<StaticBody3D#44325406988>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#44426070290>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'Area3D:<Area3D#44426070290>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@317:<StaticBody3D#39661340696>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@StaticBody3D@317:<StaticBody3D#39661340696>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@33:<CSGPolygon3D#29863445990>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@33:<CSGPolygon3D#29863445990>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Attempt to disconnect a nonexistent connection from 'TaskConsole:<StaticBody3D#39460014085>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from 'TaskConsole:<StaticBody3D#39460014085>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@29:<CSGPolygon3D#29762782688>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGPolygon3D@29:<CSGPolygon3D#29762782688>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@117:<CSGBox3D#32245810804>'. Signal: 'tree_entered', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Attempt to disconnect a nonexistent connection from '@CSGBox3D@117:<CSGBox3D#32245810804>'. Signal: 'tree_exiting', callable: ''.
+   at: _disconnect (core/object/object.cpp:1643)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)
+ERROR: Condition "!E" is true.
+   at: _body_exit_tree (scene/3d/physics/area_3d.cpp:215)

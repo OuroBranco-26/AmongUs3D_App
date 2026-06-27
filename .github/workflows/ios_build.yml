@@ -1,0 +1,51 @@
+name: Build iOS App
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    runs-on: macos-13
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Godot & Export Templates
+        run: |
+          GODOT_VERSION="4.2.2-stable"
+          
+          # Download Godot Engine
+          wget -q https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_macos.universal.zip
+          unzip -q Godot_v${GODOT_VERSION}_macos.universal.zip
+          mv Godot.app /Applications/Godot.app
+          
+          # Download Export Templates
+          wget -q https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_export_templates.tpz
+          unzip -q Godot_v${GODOT_VERSION}_export_templates.tpz
+          mkdir -p ~/Library/Application\ Support/Godot/export_templates/${GODOT_VERSION}/
+          mv templates/* ~/Library/Application\ Support/Godot/export_templates/${GODOT_VERSION}/
+
+      - name: Export Xcode Project
+        run: |
+          mkdir -p export/iOS
+          # Import all assets first
+          /Applications/Godot.app/Contents/MacOS/Godot --headless --editor --quit || true
+          # Export for iOS
+          /Applications/Godot.app/Contents/MacOS/Godot --headless --export-release "iOS" export/iOS/AmongUs3D
+          
+      - name: Build IPA (Unsigned)
+        run: |
+          cd export/iOS
+          xcodebuild -project AmongUs3D.xcodeproj -scheme AmongUs3D -configuration Release -destination 'generic/platform=iOS' archive -archivePath AmongUs3D.xcarchive CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+          mkdir -p Payload
+          cp -r AmongUs3D.xcarchive/Products/Applications/AmongUs3D.app Payload/
+          zip -q -r AmongUs3D.ipa Payload
+          
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AmongUs3D-iOS-Unsigned
+          path: export/iOS/AmongUs3D.ipa

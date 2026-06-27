@@ -1,0 +1,20 @@
+# Godot 4 specific ignores
+.godot/
+*.translation
+
+# Imported translations (files generated from CSV files)
+*.translation
+
+# Exported games
+*.apk
+*.aab
+*.exe
+*.pck
+*.x86_64
+*.zip
+*.tar.gz
+export/
+
+# OS generated files
+.DS_Store
+Thumbs.db
