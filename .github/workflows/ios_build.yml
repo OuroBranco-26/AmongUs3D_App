@@ -35,17 +35,17 @@ jobs:
           # Import all assets first
           /Applications/Godot.app/Contents/MacOS/Godot --headless --verbose --editor --quit || true
           # Export for iOS
-          /Applications/Godot.app/Contents/MacOS/Godot --headless --verbose --export-release "iOS" export/iOS/AmongUs3D
+          /Applications/Godot.app/Contents/MacOS/Godot --headless --verbose --export-debug "iOS" export/iOS/AmongUs3D
           
       - name: Build IPA (Unsigned)
-        run: |
+         run: |
           cd export/iOS
           sed -i '' 's/ProvisioningStyle = Automatic;/ProvisioningStyle = Manual;/g' AmongUs3D.xcodeproj/project.pbxproj
           sed -i '' 's/CODE_SIGN_STYLE = Automatic;/CODE_SIGN_STYLE = Manual;/g' AmongUs3D.xcodeproj/project.pbxproj
           sed -i '' 's/CODE_SIGN_IDENTITY = ".*";/CODE_SIGN_IDENTITY = "";/g' AmongUs3D.xcodeproj/project.pbxproj
           sed -i '' 's/"CODE_SIGN_IDENTITY\[sdk=iphoneos\*\]" = ".*";/"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";/g' AmongUs3D.xcodeproj/project.pbxproj
           sed -i '' 's/PROVISIONING_PROFILE_SPECIFIER = ".*";/PROVISIONING_PROFILE_SPECIFIER = "";/g' AmongUs3D.xcodeproj/project.pbxproj
-          xcodebuild -project AmongUs3D.xcodeproj -scheme AmongUs3D -configuration Release -destination 'generic/platform=iOS' build CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" CONFIGURATION_BUILD_DIR=$(pwd)/build
+          xcodebuild -project AmongUs3D.xcodeproj -scheme AmongUs3D -configuration Debug -destination 'generic/platform=iOS' build CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" CONFIGURATION_BUILD_DIR=$(pwd)/build
           mkdir -p Payload
           cp -r build/AmongUs3D.app Payload/
           zip -q -r AmongUs3D.ipa Payload
