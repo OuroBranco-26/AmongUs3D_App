@@ -38,7 +38,7 @@ jobs:
           /Applications/Godot.app/Contents/MacOS/Godot --headless --verbose --export-debug "iOS" export/iOS/AmongUs3D
           
       - name: Build IPA (Unsigned)
-         run: |
+        run: |
           cd export/iOS
           sed -i '' 's/ProvisioningStyle = Automatic;/ProvisioningStyle = Manual;/g' AmongUs3D.xcodeproj/project.pbxproj
           sed -i '' 's/CODE_SIGN_STYLE = Automatic;/CODE_SIGN_STYLE = Manual;/g' AmongUs3D.xcodeproj/project.pbxproj
