@@ -69,7 +69,7 @@ func play_3d_sound(type: String, origin: Node3D, volume_db: float = 0.0, max_dis
 
 func play_3d_footstep(origin: Node3D, is_running: bool = false):
 	var type = "step_fast" if is_running else "step"
-	var vol = 8.0 if is_running else 0.0 # Passo correndo muito mais alto
+	var vol = 16.0 if is_running else 0.0 # Passo correndo muito mais alto (Dobrado)
 	
 	# Parar os sons de passos atuais para não sobrepor (evita som de andar e correr ao mesmo tempo)
 	stop_3d_footsteps(origin)
