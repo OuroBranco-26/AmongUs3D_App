@@ -40,7 +40,7 @@ jobs:
       - name: Build IPA (Unsigned)
         run: |
           cd export/iOS
-          xcodebuild -project AmongUs3D.xcodeproj -scheme AmongUs3D -configuration Release -destination 'generic/platform=iOS' archive -archivePath AmongUs3D.xcarchive CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+          xcodebuild -project AmongUs3D.xcodeproj -scheme AmongUs3D -configuration Release -destination 'generic/platform=iOS' archive -archivePath AmongUs3D.xcarchive CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO CODE_SIGNING_IDENTITY=""
           mkdir -p Payload
           cp -r AmongUs3D.xcarchive/Products/Applications/AmongUs3D.app Payload/
           zip -q -r AmongUs3D.ipa Payload
