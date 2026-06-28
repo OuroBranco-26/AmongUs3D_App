@@ -26,8 +26,8 @@ jobs:
           # Download Export Templates
           wget -q https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_export_templates.tpz
           unzip -q Godot_v${GODOT_VERSION}_export_templates.tpz
-          mkdir -p ~/Library/Application\ Support/Godot/export_templates/${GODOT_VERSION}/
-          mv templates/* ~/Library/Application\ Support/Godot/export_templates/${GODOT_VERSION}/
+          mkdir -p ~/Library/Application\ Support/Godot/export_templates/4.3.stable/
+          mv templates/* ~/Library/Application\ Support/Godot/export_templates/4.3.stable/
 
       - name: Export Xcode Project
         run: |
